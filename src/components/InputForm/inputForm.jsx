@@ -1,17 +1,19 @@
 import React, { useState } from 'react'
 import Button from '../button/button'
 import './inputForm.css'
+import { useNavigate } from 'react-router-dom';
 const inputForm = ({label,type}) => {
     const [show , setShow] = useState(false);
     const [inputValue, setInputValue] = useState();
-
+     const navigate = useNavigate()
     function visibility(){
         setShow(!show);
     }   
 
     function handleSumbit(e){
        e.preventDefault();
-       console.log('Form submitted', inputValue);
+       console.log('Form submitted', inputValue); 
+       navigate('/play')
    }
 
    function handleChange(e){

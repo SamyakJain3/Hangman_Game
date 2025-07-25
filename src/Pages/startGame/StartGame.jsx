@@ -2,6 +2,8 @@ import React from 'react'
 import InputForm from '../../components/InputForm/inputForm'
 import './startGame.css'
 const StartGame = () => {
+ 
+
   return (
     <>
     <div className='instruction'>
