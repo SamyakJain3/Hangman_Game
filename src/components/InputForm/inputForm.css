@@ -1,0 +1,17 @@
+input{
+    width:80vw;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+button{
+    width: 8vw;
+    height: 60px;
+    margin: 0 5px;
+}
+.Input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}

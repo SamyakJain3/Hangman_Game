@@ -1,0 +1,21 @@
+button{
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    width: 500px;
+    height: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
