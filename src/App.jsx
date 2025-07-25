@@ -24,7 +24,7 @@ function App() {
         <div className="App">
           <h1>Welcome to the Hangman Game !</h1>
           <p>Get ready to guess the word letter by letter.</p>
-          <Button value='Start Game' color={'var(--btnColor)'} onClick={handleStartGame}/>
+          <Button value='Start Game' className="start" color={'var(--btnColor)'} onClick={handleStartGame}/>
         </div>
       )}
     </>
