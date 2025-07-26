@@ -13,7 +13,7 @@ const inputForm = ({label,type}) => {
     function handleSumbit(e){
        e.preventDefault();
        console.log('Form submitted', inputValue); 
-       navigate('/play')
+       navigate('/play', {state : inputValue})
    }
 
    function handleChange(e){
