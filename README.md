@@ -19,7 +19,17 @@ then install react-router-dom 'npm i react-router-dom'
 then file is ready to open 'npm run dev'
 
 ## Screenshots
-![Screenshot 1](./Assets/ex.png)
+## Home Page
+![Screenshot 1](./src/assets/Screenshot1.png)
+## startGame
+![Screenshot 2](./src/assets/Screenshot2.png)
+## PlayGame
+![Screenshot 3](./src/assets/Screenshot3.png)
+## if we type right or wrong word then UI show this
+![Screenshot 4](./src/assets/Screenshot4.png)
+## if we lost the Game
+![Screenshot 5](./src/assets/Screenshot5.png)
+
 
 ## License
 This project is open-source and available for modification and distribution.
