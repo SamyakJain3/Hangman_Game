@@ -5,7 +5,7 @@ const StartGame = () => {
  
 
   return (
-    <>
+    <div className='start'>
     <div className='instruction'>
       <h1>Welcome to HangMan Game!!</h1>
       <p>Enter the word for guessing</p>
@@ -13,7 +13,7 @@ const StartGame = () => {
      <div>
      <InputForm label="Enter your word" type="text" />
      </div>
-    </>
+    </div>
   )
 }
 

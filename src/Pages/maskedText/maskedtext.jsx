@@ -1,16 +1,15 @@
- import React from 'react'
+import React, { use } from 'react'
 import allUsedLetters from './maskedtextUtility'
-  const maskedtext = ({text, usedletters="se"}) => {
-    const letter = allUsedLetters(text, usedletters);
-
-
-const usedLetters =
+  const maskedtext = ({text, usedLetters}) => {
+    const letter = allUsedLetters(text, usedLetters);
+const usedLetter =
   letter.map((char , index)=> (
     <span key={index}>{char}</span>
   ))
+  console.log(usedLetter)
     return (
       <div>
-        {usedLetters}
+        {usedLetter}
       </div>
     )
   }

@@ -12,3 +12,9 @@ span{
 .alpha:hover{
     background-color: var(--btnHoverColor);
 }
+.play
+{
+    color: white;
+    width: 100vw;
+    height: 100vh;
+}

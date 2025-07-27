@@ -15,7 +15,7 @@ function App() {
   }; 
  
   return (
-    <>
+    <div style={{ backgroundColor: 'var(--backgroundColor)'}}>
     <Routes>
       <Route path="/start" element={<StartGame />} />
       <Route path="/play" element={<PlayGame />} />
@@ -27,7 +27,7 @@ function App() {
           <Button value='Start Game' className="start" color={'var(--btnColor)'} onClick={handleStartGame}/>
         </div>
       )}
-    </>
+    </div>
   )
 }
 

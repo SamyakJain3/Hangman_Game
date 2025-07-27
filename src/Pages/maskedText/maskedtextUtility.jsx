@@ -1,8 +1,8 @@
-function allUsedLetters(word , letters){
-  const usedLetterArrs = letters.toUpperCase().split("");
-  const wordArr =  word.toUpperCase().split("").map((char)=>
-  usedLetterArrs.includes(char)?char:'_')
-  return wordArr;
-
+function allUsedLetters(word, usedLetters = []) {
+  const usedLetterArr = usedLetters.map(l=>l.toUpperCase());
+  return word.toUpperCase().split('').map(char =>
+    usedLetterArr.includes(char) ? char : '_'
+  );
 }
-  export default allUsedLetters
+
+export default allUsedLetters

@@ -1,12 +1,25 @@
-# React + Vite
+# HangMan Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This Game have 3 pages. first one is starting interface where we have some welcoming text and button. button can redirect us to a new web page. second page have input box where we have to right word to guess.then click ok the we will go to another page. third page have all alphabetic button if we clicked on button . and the letter button value matches to words letter then its turn into green and shown to ui otherwise its turn to red and we lost one more attempt to guess. we have only 5 attempt to guess. if we didnt guess the word in 5 attempt the pop up come and we will redirect to our start game web page . where we type our word to guess
 
-Currently, two official plugins are available:
+## Features
+- we have a input box where we type a word to guess then click ok the word is convert to masked word and hide over next page
+- another page have alphabetic button . we clicked on it if the button matched to masked words letter. then its show over ui.
+- if we clicked a right char button turn into green otherwise it turn into red
+- we have 5 attempts only and attemp coumnt is also showing in ui
+- if we loss all the attempt then pop up coming up and we redirect to start Game Page
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+First copy the Link of Git reposatory
+type in your vs Code terminal 'git Clone https://github.com/SamyakJain3/Hangman_Game.git'
+then go on the file type on your terminal 'cd <FileName>'
+then download all the library by using 'npm i'
+then install react-router-dom 'npm i react-router-dom'
+then file is ready to open 'npm run dev'
 
-## Expanding the ESLint configuration
+## Screenshots
+![Screenshot 1](./Assets/ex.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## License
+This project is open-source and available for modification and distribution.
