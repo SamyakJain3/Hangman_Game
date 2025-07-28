@@ -1,35 +1,55 @@
-# HangMan Game
+
+# Hangman Game
 
 ## Overview
-This Game have 3 pages. first one is starting interface where we have some welcoming text and button. button can redirect us to a new web page. second page have input box where we have to right word to guess.then click ok the we will go to another page. third page have all alphabetic button if we clicked on button . and the letter button value matches to words letter then its turn into green and shown to ui otherwise its turn to red and we lost one more attempt to guess. we have only 5 attempt to guess. if we didnt guess the word in 5 attempt the pop up come and we will redirect to our start game web page . where we type our word to guess
+Hangman is a classic word-guessing game built with React. The application features three main pages:
+
+1. **Home Page:** Welcoming interface with a button to start the game.
+2. **Start Game Page:** Input box to enter the word to be guessed.
+3. **Play Game Page:** Interactive alphabet buttons for guessing letters.
 
 ## Features
-- we have a input box where we type a word to guess then click ok the word is convert to masked word and hide over next page
-- another page have alphabetic button . we clicked on it if the button matched to masked words letter. then its show over ui.
-- if we clicked a right char button turn into green otherwise it turn into red
-- we have 5 attempts only and attemp coumnt is also showing in ui
-- if we loss all the attempt then pop up coming up and we redirect to start Game Page
+- Enter a word to be guessed; it will be masked on the next page.
+- Click alphabet buttons to guess letters. Correct guesses reveal the letter in the masked word.
+- Correct guesses turn the button green; incorrect guesses turn it red.
+- You have only 5 attempts. The attempt count is shown in the UI.
+- If all attempts are used, a popup appears and you are redirected to the Start Game page.
 
 ## Installation
-First copy the Link of Git reposatory
-type in your vs Code terminal 'git Clone https://github.com/SamyakJain3/Hangman_Game.git'
-then go on the file type on your terminal 'cd <FileName>'
-then download all the library by using 'npm i'
-then install react-router-dom 'npm i react-router-dom'
-then file is ready to open 'npm run dev'
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SamyakJain3/Hangman_Game.git
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd Hangman_Game
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   npm install react-router-dom
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
 ## Screenshots
-## Home Page
-![Screenshot 1](./src/assets/Screenshot1.png)
-## startGame
-![Screenshot 2](./src/assets/Screenshot2.png)
-## PlayGame
-![Screenshot 3](./src/assets/Screenshot3.png)
-## if we type right or wrong word then UI show this
-![Screenshot 4](./src/assets/Screenshot4.png)
-## if we lost the Game
-![Screenshot 5](./src/assets/Screenshot5.png)
 
+### Home Page
+![Screenshot 1](./src/assets/Screenshot1.png)
+
+### Start Game
+![Screenshot 2](./src/assets/Screenshot2.png)
+
+### Play Game
+![Screenshot 3](./src/assets/Screenshot3.png)
+
+### Right or Wrong Guess UI
+![Screenshot 4](./src/assets/Screenshot4.png)
+
+### Game Lost Popup
+![Screenshot 5](./src/assets/Screenshot5.png)
 
 ## License
 This project is open-source and available for modification and distribution.
