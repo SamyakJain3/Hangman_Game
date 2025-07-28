@@ -44,7 +44,9 @@ const button = alphabets.map(letter =>{
     <div>
        {`failed attempts : ${step}`}
     </div>
+    <div className='alphabets'>
       {button}
+      </div>
     </>
   );
 }
