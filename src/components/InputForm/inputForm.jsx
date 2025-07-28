@@ -24,9 +24,11 @@ const inputForm = ({label,type}) => {
  return (
 <>
     <div className='Input'>
-      <input type={show ? "text" : "password"} placeholder={label} onChange={handleChange}/>
-      <Button value={show ? "Hide" : "Show"} onClick={visibility} color={show?'var(--errorColor)':'var(--successColor)'}/>
-      <Button value="ok" onClick={handleSumbit} color="var(--btnColor)" />
+    
+         <input type={show ? "text" : "password"} placeholder={label} onChange={handleChange}/>
+         <Button value={show ? "Hide" : "Show"} onClick={visibility} color={show?'var(--errorColor)':'var(--successColor)'}/>
+         <Button value="ok" onClick={handleSumbit} color="var(--btnColor)" />
+     
     </div>
 </>
   )
