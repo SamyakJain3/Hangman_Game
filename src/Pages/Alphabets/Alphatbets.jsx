@@ -21,7 +21,7 @@ const Alphatbets = ({usedLetters, onLetterClick,word}) => {
   if(!wordLetters.has(charecter)){
        setStep(step+1)
       if(step>3){
-        alert('you Lost the Game, Plz try again')
+        alert(`you Lost the Game, Plz try again , your word was ${word}`);
         navigate('/start')
     }
    } 

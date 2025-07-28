@@ -6,3 +6,8 @@
   --errorColor: #e53e3e;
   --successColor: #38a169;
 }
+body {
+  background-color: var(--backgroundColor);
+  color: var(--textColor);
+  font-family: 'Arial', sans-serif;
+}
